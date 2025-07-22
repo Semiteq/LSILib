@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FBConfig>
+  <Map>
+    <Items>
+      <Pin ID="1" Name="ActualLine" Type="Целый"/>
+      <Pin ID="2" Name="EnaLoad" Type="Логический"/>
+
+    </Items>
+  </Map>
+  <VisualMap>
+    <Items>
+      <Pout ID="1001" Name="CommProtocol" Type="БеззнаковыйЦелый"/>
+      <Pout ID="1002" Name="AddrArea" Type="БеззнаковыйЦелый"/>
+      <Pout ID="1003" Name="FloatBaseAddr" Type="БеззнаковыйЦелый"/>
+      <Pout ID="1004" Name="FloatAreaSize" Type="БеззнаковыйЦелый"/>
+      <Pout ID="1005" Name="IntBaseAddr" Type="БеззнаковыйЦелый"/>
+      <Pout ID="1006" Name="IntAreaSize" Type="БеззнаковыйЦелый"/>
+      <Pout ID="1007" Name="BoolBaseAddr" Type="БеззнаковыйЦелый"/>
+      <Pout ID="1008" Name="BoolAreaSize" Type="БеззнаковыйЦелый"/>
+      <Pout ID="1009" Name="ControlBaseAddr" Type="БеззнаковыйЦелый"/>
+      <Pout ID="1010" Name="IP1" Type="БеззнаковыйЦелый"/>
+      <Pout ID="1011" Name="IP2" Type="БеззнаковыйЦелый"/>
+      <Pout ID="1012" Name="IP3" Type="БеззнаковыйЦелый"/>
+      <Pout ID="1013" Name="IP4" Type="БеззнаковыйЦелый"/>
+      <Pout ID="1014" Name="Port" Type="БеззнаковыйЦелый"/>
+      <Pout ID="1015" Name="Timeout" Type="БеззнаковыйЦелый"/>
+      <Pout ID="1016" Name="HMIActualLine" Type="Целый"/>
+      <Pout ID="1017" Name="HMIStatus" Type="БеззнаковыйЦелый"/>
+
+    </Items>
+  </VisualMap>
+</FBConfig>

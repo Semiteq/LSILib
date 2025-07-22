@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Program Files (x86)\MPSSoft\MasterSCADA\LSILib.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F05722BC-8F7B-4BBF-ACE2-FB95279D9B5C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>LSILib</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>LSILib</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FB">
+      <HintPath>lib\FB.dll</HintPath>
+    </Reference>
+    <Reference Include="InSAT.Library">
+      <HintPath>lib\InSAT.Library.dll</HintPath>
+    </Reference>
+    <Reference Include="Insat.Opc">
+      <HintPath>lib\Insat.Opc.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FB\SlowValve\title_type.cs" />
+    <Compile Include="FB\SlowValve\ControlBase.cs" />
+    <Compile Include="FB\SlowValve\ValveDown.cs" />
+    <Compile Include="FB\SlowValve\ValveLeft.cs" />
+    <Compile Include="FB\SlowValve\ControlWindow.cs" />
+    <Compile Include="FB\SlowValve\ValveUp.cs" />
+    <Compile Include="FB\SlowValve\ValveRight.cs" />
+    <Compile Include="FB\SlowValve\SlowValve.cs" />
+    <Compile Include="FB\Device\ControlBase.cs" />
+    <Compile Include="FB\Device\ValveSlideValveBaseControl.cs" />
+    <Compile Include="FB\Device\ValveBaseControl.cs" />
+    <Compile Include="FB\Device\ValveHor.cs" />
+    <Compile Include="FB\Device\ControlWindow.cs" />
+    <Compile Include="FB\Device\SlideValveBaseControl.cs" />
+    <Compile Include="FB\Device\SlideValveDown.cs" />
+    <Compile Include="FB\Device\PumpBaseControl.cs" />
+    <Compile Include="FB\Device\PumpLeftControl.cs" />
+    <Compile Include="FB\Device\Device.cs" />
+    <Compile Include="FB\Device\PumpDownControl.cs" />
+    <Compile Include="FB\Device\SlideValveSimpleLeft.cs" />
+    <Compile Include="FB\Device\SlideValveSimpleDown.cs" />
+    <Compile Include="FB\Device\ValveVer.cs" />
+    <Compile Include="FB\Device\SlideValveSimpleUp.cs" />
+    <Compile Include="FB\Device\SlideValveSimpleRight.cs" />
+    <Compile Include="FB\Device\SlideValveRight.cs" />
+    <Compile Include="FB\Device\PumpRightControl.cs" />
+    <Compile Include="FB\Device\SlideValveUp.cs" />
+    <Compile Include="FB\Device\SlideValveLeft.cs" />
+    <Compile Include="FB\Device\PumpUpControl.cs" />
+    <Compile Include="FB\Device\Motor.cs" />
+    <Compile Include="FB\Device\title_type.cs" />
+    <Compile Include="FB\ValueInt\ValueIntView.cs" />
+    <Compile Include="FB\ValueInt\ValueInt.cs" />
+    <Compile Include="FB\Table\TableEnumType.cs" />
+    <Compile Include="FB\Table\TCell.cs" />
+    <Compile Include="FB\Table\TableControl.cs" />
+    <Compile Include="FB\Table\RecipeLine.cs" />
+    <Compile Include="FB\Table\table_edit.cs" />
+    <Compile Include="FB\Table\cell_types.cs" />
+    <Compile Include="FB\Table\TableColum.cs" />
+    <Compile Include="FB\Table\Table.cs" />
+    <Compile Include="FB\Table\Reg.cs" />
+    <Compile Include="FB\Value\ValueView.cs" />
+    <Compile Include="FB\Value\Value.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FB\Device\ControlBase.resx" />
+    <EmbeddedResource Include="FB\Device\ControlWindow.resx" />
+    <EmbeddedResource Include="FB\Device\Device.bmp" />
+    <EmbeddedResource Include="FB\Device\Device.xml" />
+    <EmbeddedResource Include="FB\SlowValve\ControlBase.resx" />
+    <EmbeddedResource Include="FB\SlowValve\ControlWindow.resx" />
+    <EmbeddedResource Include="FB\SlowValve\SlowValve.bmp" />
+    <EmbeddedResource Include="FB\SlowValve\SlowValve.xml" />
+    <EmbeddedResource Include="FB\Table\Table.bmp" />
+    <EmbeddedResource Include="FB\Table\Table.xml" />
+    <EmbeddedResource Include="FB\Table\TableControl.resx" />
+    <EmbeddedResource Include="FB\Value\Value.bmp" />
+    <EmbeddedResource Include="FB\Value\Value.xml" />
+    <EmbeddedResource Include="FB\Value\ValueView.resx" />
+    <EmbeddedResource Include="FB\ValueInt\ValueInt.bmp" />
+    <EmbeddedResource Include="FB\ValueInt\ValueInt.xml" />
+    <EmbeddedResource Include="FB\ValueInt\ValueIntView.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

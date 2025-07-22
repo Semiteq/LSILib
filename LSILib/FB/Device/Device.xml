@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FBConfig>
+  <Map>
+    <Items>
+      <Pin ID="1" Name="StateDW" Type="БеззнаковыйЦелый"/>
+      <Pout ID="2" Name="CmdW" Type="System.UInt16"/>
+      <Pout ID="3" Name="Debug" Type="Строковый"/>
+      <Group Name="State" ID="100">
+        <Items>
+          <Pout ID="101" Name="Недостоверно" Type="Логический"/>
+          <Pout ID="102" Name="ОткрытЗапущен" Type="Логический"/>
+          <Pout ID="103" Name="ЗакрытОстановлен" Type="Логический"/>
+          <Pout ID="104" Name="ОткрываетяЗапускается" Type="Логический"/>
+          <Pout ID="105" Name="ЗакрываетсяОстанавливается" Type="Логический"/>
+          <Pout ID="106" Name="Авария" Type="Логический"/>
+          <Pout ID="107" Name="Новая Авария" Type="Логический"/>
+          <Pout ID="108" Name="Ручной" Type="Логический"/>
+          <Pout ID="109" Name="КомандаОткрытьЗапустить" Type="Логический"/>
+          <Pout ID="110" Name="КомандаЗакрытьОстановить" Type="Логический"/>
+          <Pout ID="111" Name="Разрешить ОткрытьЗапустить" Type="Логический"/>
+          <Pout ID="112" Name="Разрешить ЗакрытьОстановить" Type="Логический"/>
+          <Pout ID="113" Name="Разрешить Переключить" Type="Логический"/>
+          <Pout ID="114" Name="Сигнал концевика ОткрытЗапущен" Type="Логический"/>
+          <Pout ID="115" Name="Сигнал концевика ЗакрытОстановлен" Type="Логический"/>
+          <Pout ID="116" Name="Блокировка ОткрытияЗапуска" Type="Логический"/>
+          <Pout ID="117" Name="Блокировка ЗакрытияОстанова" Type="Логический"/>
+          <Pout ID="118" Name="ТЗ ОткрытьЗапустить" Type="Логический"/>
+          <Pout ID="119" Name="ТЗ ЗакрытьОстановить" Type="Логический"/>
+          <Pout ID="120" Name="Авария Концевиков" Type="Логический"/>
+          <Pout ID="121" Name="Авария не ОткрылсяЗапустился" Type="Логический"/>
+          <Pout ID="122" Name="Авария не ЗакрылсяОстановился" Type="Логический"/>
+          <Pout ID="123" Name="Авария не достоверно" Type="Логический"/>
+          <Pout ID="124" Name="Авария внешняя" Type="Логический"/>
+          <Pout ID="125" Name="Safety OK" Type="Логический"/>
+          <Pout ID="126" Name="Power OK" Type="Логический"/>
+          <Pout ID="127" Name="Дополнительный флаг 1" Type="Логический"/>
+          <Pout ID="128" Name="Дополнительный флаг 2" Type="Логический"/>
+        </Items>
+      </Group>
+      <Group Name="Cmd" ID="200">
+        <Items>
+          <Pin ID="201" Name="ОткрытьЗапустить" Type="Логический"/>
+          <Pin ID="202" Name="ЗакрытьОстановить" Type="Логический"/>
+          <Pin ID="203" Name="Переключить" Type="Логический"/>
+          <Pin ID="204" Name="Сброс ошибок" Type="Логический"/>
+          <Pin ID="205" Name="ВклРежимАвто" Type="Логический"/>
+          <Pin ID="206" Name="ВклРежимРучн" Type="Логический"/>
+        </Items>
+      </Group>
+    </Items>
+  </Map>
+  <VisualMap>
+    <Items>
+      <Pout ID="300" Name="HMIStatusDWord" Type="БеззнаковыйЦелый"/>
+      <Pin ID="310"  Name="CmdOpenStart" Type="Логический"/>
+      <Pin ID="311"  Name="CmdCloseStop" Type="Логический"/>
+      <Pin ID="312"  Name="CmdChange" Type="Логический"/>
+      <Pin ID="313"  Name="CmdAck"  Type="Логический"/>
+      <Pin ID="314"  Name="CmdManualOn" Type="Логический"/>
+      <Pin ID="315"  Name="CmdAutoOn" Type="Логический"/>
+    </Items>
+  </VisualMap>
+</FBConfig>

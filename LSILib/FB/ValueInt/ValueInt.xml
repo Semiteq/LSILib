@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FBConfig>
+  <Map>
+    <Items>
+      <Pin ID="1" Name="ValueActual" Type="Целый"/>
+      <Pin ID="2" Name="ChangeEna" Type="Логический"/>
+      <Pout ID="3" Name="ValueCMD" Type="Целый"/>
+      <Pout ID="4" Name="Debug" Type="Строковый"/>
+      <Pout ID="5" Name="LastOKValue" Type="Целый"/>
+    </Items>
+  </Map>
+  <VisualMap>
+    <Items>
+      <Pout ID="300" Name="HMIValueActual" Type="Целый"/>
+      <Pout ID="301" Name="HMIState" Type="БеззнаковыйЦелый"/>
+      <Pin ID="310"  Name="CmdNewValue" Type="Целый"/>
+      <Pin ID="311"  Name="CmdUpdate" Type="Логический"/>
+    </Items>
+  </VisualMap>
+</FBConfig>
